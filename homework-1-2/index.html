@@ -28,7 +28,7 @@
 				</label>
 				<br>
 				<label>Возраст:
-					<input type="text" name="age">лет
+					<input type="number" name="age" min="1" max="50" size="3">лет
 				</label>
 			</form>
 		</fieldset>
@@ -103,7 +103,7 @@
 			<textarea rows="8" cols="35">
 			</textarea>
 			<br>
-			<select name="position" multiple>
+			<select name="position" multiple size="3">
 				<option value="number">Первая позиция</option>
 				<option value="number">Вторая позиция</option>
 				<option value="number">Третья позиция</option>
@@ -112,12 +112,12 @@
 		<fieldset>
 			<legend><b>И в заключение</b></legend>
 			<label>
-				<input type="text" placeholder="Это поле было введено для вас">
+				<input type="text" size="25" placeholder="Это поле было введено для вас">
 			</label>
 			<br>
 			<label><b>Email:</b>
 				<br>
-				<input type="text" name="email">
+				<input type="text" name="email" size="25">
 			</label>
 			<p><b>Хотите подписаться на самую модную рассылку спама?</b></p>
 			<p><i>Выберите категории</i></p>
@@ -134,19 +134,18 @@
 			</label>
 			<p><b>На сколько сложная задача:</b></p>
 			<label>
-				<input type="radio">Совсем нет
+				<input type="radio" name="question">Совсем нет
 			</label>
 			<br>
 			<label>
-				<input type="radio">Так себе
+				<input type="radio" name="question">Так себе
 			</label>
 			<br>
 			<label>
-				<input type="radio">Еле справился
+				<input type="radio" name="question">Еле справился
 			</label>
 		</fieldset>
 		<button>Отправить</button>
 	</section>
-	
 </body>
 </html>
