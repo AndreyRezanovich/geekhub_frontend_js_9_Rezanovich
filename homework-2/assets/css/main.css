@@ -1,0 +1,281 @@
+@font-face {
+    font-family: "Lato";
+    src: url("../fonts/Lato-Regular.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: "Myriad Pro";
+    src: url("../fonts/MyriadPro-Regular.ttf") format("ttf"),
+    url("../fonts/MyriadPro-Regular.eot") format("eot"),
+    url("../fonts/MyriadPro-Regular.woff") format("woff");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Lato, sans-serif;
+}
+
+img {
+    display: block;
+}
+
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+header {
+    background: #194277;
+}
+
+div.container {
+    width: 75%;
+    margin: auto;
+}
+
+.wrapper {
+    /*width: 1140px;*/
+    /*height: 72px;*/
+    margin: 0 auto;
+    padding: 0;
+
+}
+
+.header {
+}
+
+.wrapper header div {
+    padding: 20px 0;
+    text-align: center;
+}
+
+header p {
+    padding: 20px 0;
+}
+
+header div span {
+    font-size: 14px;
+    color: #fff;
+    font-weight: normal;
+
+}
+
+header div button {
+    padding: 5px 30px;
+    border-radius: 14px;
+    background-color: #fff;
+    border: none;
+    margin-left: 30px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #194277;
+}
+
+.onboarding {
+    background: linear-gradient(45deg, #469dff, #3677fd);
+
+
+}
+
+.onboarding img .ellipse {
+    display: block;
+    margin: 0 auto;
+}
+
+.onboarding button {
+    /*float: right;*/
+    display: block;
+    margin-top: 30px;
+}
+
+.onboarding button img {
+    display: block;
+    margin-right: auto;
+
+}
+
+section {
+    overflow: hidden;
+}
+
+section div div img {
+    margin-top: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+section div div {
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+section div div h1 {
+    font-size: 50px;
+    font-family: Myriad Pro, sans-serif;
+    font-weight: normal;
+    margin-top: 50px;
+}
+
+section div div p {
+    font-size: 16px;
+    font-family: Lato, sans-serif;
+    font-weight: lighter;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.hireme {
+    padding: 20px 70px;
+    border-radius: 40px;
+    background-color: #fff;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 150px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #3677fd;
+    text-transform: uppercase;
+}
+
+.pointer {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.about {
+    background-color: #fff;
+    text-align: center;
+}
+
+.heading {
+    font-weight: lighter;
+    font-size: 50px;
+    text-transform: capitalize;
+    color: #3695ff;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.about div p {
+    font-weight: lighter;
+    font-size: 16px;
+    margin-top: 60px;
+    margin-bottom: 120px;
+}
+
+.expert {
+    background-color: #f1f8ff;
+}
+
+div h2 {
+    margin-bottom: 100px;
+}
+
+li {
+    cursor: pointer;
+}
+
+ul {
+    display: flex;
+    width: 75%;
+    margin: 0 auto;
+}
+
+ul li {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    text-align: center;
+}
+
+ul li h3 {
+    color: #3695ff;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+
+ul li p {
+    font-weight: lighter;
+    font-size: 16px;
+}
+
+ul li img {
+    display: flex;
+    object-fit: contain;
+    margin-bottom: 100px;
+}
+
+.second {
+    margin-top: 130px;
+    margin-bottom: 110px;
+}
+
+#flex {
+    display: flex;
+    width: 75%;
+    margin: 0 auto;
+}
+
+#graphic {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    align-self: center
+}
+
+.clients {
+    background-color: #f1f8ff;
+}
+
+#comp {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: space-around;
+    filter: grayscale(100%);
+}
+
+.clients div h2 {
+    margin-bottom: 30px;
+}
+
+.info {
+    background: linear-gradient(45deg, #469dff, #3677fd);
+    text-align: center;
+}
+
+.infotext {
+    font-size: 50px;
+    font-weight: lighter;
+    color: #fff;
+}
+
+#bold {
+    font-weight: bold;
+}
+
+#info {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.info div button {
+    padding: 20px 70px;
+    border-radius: 40px;
+    background-color: #fff;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #3677fd;
+    text-transform: uppercase;
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
